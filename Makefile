@@ -1,3 +1,4 @@
+EXTRA_CFLAGS += $(USER_EXTRA_CFLAGS)
 ccflags-y += $(USER_ccflags-y)
 ccflags-y += -O1
 #ccflags-y += -O2 -std=gnu11 -Wno-declaration-after-statement
